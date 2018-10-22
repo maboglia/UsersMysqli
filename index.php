@@ -6,7 +6,7 @@
 <style type="text/css">
 .form-control{float: left;width: 70%;}
 .btn{float: left;margin-left: 5px;}
-/* For Loading Overlay by CodexWorld */
+/* For Loading Overlay */
 .container{position: relative;}
 .loading-overlay{
 	position: absolute;
@@ -50,7 +50,7 @@ function getUsers(type,val){
 </head>
 <body>
 <div class="container">
-    <h2>Users Search & Filter by CodexWorld</h2>
+    <h2>Users Search & Filter</h2>
     <div class="form-group pull-left">
         <input type="text" class="search form-control" id="searchInput" placeholder="By Name or Email">
         <input type="button" class="btn btn-primary" value="Search" onclick="getUsers('search',$('#searchInput').val())"/>
